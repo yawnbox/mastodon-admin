@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script presumes the use of a zfs pool, and Mastodon is installed in /zpool
-# 1. 'sudo touch /usr/local/bin/daily_zfs_snapshot.sh' and put this script in here
+# 1. 'sudo touch /usr/local/bin/daily_zfs_snapshot.sh' and put this script in here then 'sudo chmod +x /usr/local/bin/daily_zfs_snapshot.sh'
 # 2. 'sudo crontab -e' and add '0 6 * * * /usr/local/bin/daily_zfs_snapshot.sh' for this to run daily at 6AM
 # 3. validate logs 'sudo cat /var/log/zfs_snapshot.log'
 # Thank you and please share any feedback!
